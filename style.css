@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body {
+    margin:0;
+    height:100vh;
+    font-family: 'ArialRounded', 'Segoe UI',Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.pomofocus{
+  padding:30px 35px;
+  background-color: rgba(169, 166, 166, 0.3);
+  border-radius: 5px;
+}
+body.pomodoro{
+     background-color:rgb(186,73,73);
+
+}
+
+body.short-Break{
+    background-color: rgb(56, 133, 138);
+
+}
+body.long-Break{
+    background-color:rgb(57, 112, 151);
+}
+body .pomofocus{
+    text-align: center;
+}
+.buttons{
+    margin-bottom:25px;
+}
+.buttons button{
+    color:white;
+    background: none;
+    border:none;
+    padding:8px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor:pointer;
+    
+    
+}
+.buttons button a{
+    text-decoration: none;
+    color:white;
+}
+
+.buttons .active{
+   background-color: rgba(69, 68, 68, 0.3);
+   border-radius:5px;    
+}
+.timer{
+    font-size: 120px;
+    font-weight: bold;
+    margin-bottom:20px;
+    font-family:serif;
+}
+.start-pause button{
+    padding:10px 20px;
+    width:200px;
+    height:50px;
+    background-color:white;
+    color:rgb(186,73,73);
+    font-size:20px;
+    font-weight: bold;
+    border:none;
+    border-radius:5px;
+}
+
+#pause{
+    display:none;
+}
+
